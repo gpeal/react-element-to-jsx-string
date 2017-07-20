@@ -1,6 +1,6 @@
 {
   "name": "react-element-to-jsx-string",
-  "version": "11.0.0",
+  "version": "12.0.0",
   "description": "Turn a ReactElement into the corresponding JSX string.",
   "main": "dist/index.js",
   "scripts": {
@@ -55,17 +55,18 @@
     "lint-staged": "^4.0.2",
     "mversion": "^1.10.1",
     "prettier": "^1.5.3",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-test-renderer": "^15.6.1"
+    "react-dom": "^16.0.0-alpha.12",
+    "react-test-renderer": "^16.0.0-alpha.12"
   },
   "peerDependencies": {
-    "react": "^0.14.8 || ^15.0.1"
+    "react": "^16.0.0 || ^16.0.0-alpha"
   },
   "dependencies": {
     "collapse-white-space": "^1.0.3",
     "is-plain-object": "^2.0.4",
     "lodash": "^4.17.4",
+    "react": "^16.0.0-alpha.12",
+    "react-dom": "^16.0.0-alpha.12",
     "sortobject": "^1.0.0",
     "stringify-object": "^3.2.0"
   }
